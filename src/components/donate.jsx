@@ -6,12 +6,12 @@ import { toast, ToastContainer } from "react-toastify";
 import { Buffer } from "buffer";
 
 const Donate = ({ walletApi }) => {
-  const [amount, setAmount] = useState(0);
+  const [amount, setAmount] = useState("");
   const [walletAddress, setWalletAddress] = useState("");
   const [loading, setLoading] = useState(false);
 
   const clearField = () => {
-    setAmount(0);
+    setAmount("");
     setWalletAddress("");
   };
 

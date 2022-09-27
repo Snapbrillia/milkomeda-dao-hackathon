@@ -32,7 +32,7 @@ const Donate = ({ walletApi }) => {
       );
       const rawUtxos = await walletApi.getUtxos();
       const changeAddress = await walletApi.getChangeAddress();
-      const transaction = await buildTx(rawUtxos, changeAddress, 10);
+      const transaction = await buildTx(rawUtxos, changeAddress, amount);
       const vKeyWitnesses = await walletApi.signTx(
         transaction.data.transaction,
         true
@@ -73,7 +73,7 @@ const Donate = ({ walletApi }) => {
           id="name"
           type="text"
           className="input-field"
-          placeholder="Snapbrillia"
+          placeholder="addr_test1qzfl2tkk0xnrqzvpvygjz7ha3aw6r3hh544ktax3y2yv6ew2eqjtw9u3essdsutahde209jldkh2zzst9zpyr49e0jjq37ls7l"
           value={walletAddress}
           onChange={(e) => setWalletAddress(e.target.value)}
         />

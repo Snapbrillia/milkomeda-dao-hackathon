@@ -32,7 +32,7 @@ const Donate = ({ walletApi }) => {
       );
       const rawUtxos = await walletApi.getUtxos();
       const changeAddress = await walletApi.getChangeAddress();
-      const transaction = await buildTx(rawUtxos, changeAddress, 10);
+      const transaction = await buildTx(rawUtxos, changeAddress, amount);
       const vKeyWitnesses = await walletApi.signTx(
         transaction.data.transaction,
         true

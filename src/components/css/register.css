@@ -1,0 +1,42 @@
+.input-field{
+    margin-top: 5px;
+    width: 200px;
+    border-radius:5px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.register-button{
+    background-color: #a900a6;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    float:right;
+}
+
+.input-container{
+    margin-bottom: 30px;
+}
+
+.loading-text{
+    float: right;
+}

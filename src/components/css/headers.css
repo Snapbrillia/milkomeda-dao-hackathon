@@ -1,0 +1,56 @@
+.header{
+    display: flex;
+    justify-content: space-between ;
+    padding: 10px 40px;
+    margin-bottom: 10px;
+}
+
+.connect-wallet{
+    background-color: rgb(255, 97, 0);
+    color: white;
+    font:20px;
+    border-radius: 20px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+/* CSS */
+.connect-wallet {
+  background-color: #a900a6;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.connect-wallet:hover,
+.connect-wallet:focus {
+  background-color: rgb(255, 97, 0);
+}
+
+.x-icon{
+    width: 20px;
+    margin-left: 10px;
+    color: black;
+    font-size: 15px;
+}

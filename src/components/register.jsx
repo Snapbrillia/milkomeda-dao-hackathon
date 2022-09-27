@@ -101,7 +101,7 @@ const Register = ({ walletApi }) => {
         <input
           id="message"
           type="text"
-          placeholder="d2a8bf85a086ad7f8b79778bed6753551a33518d24c80b7954b2cb7e"
+          placeholder="addr_test1qzfl2tkk0xnrqzvpvygjz7ha3aw6r3hh544ktax3y2yv6ew2eqjtw9u3essdsutahde209jldkh2zzst9zpyr49e0jjq37ls7l"
           value={walletAddress}
           className="input-field"
           onChange={(e) => setWalletAddress(e.target.value)}

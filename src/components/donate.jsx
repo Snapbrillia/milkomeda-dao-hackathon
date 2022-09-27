@@ -73,7 +73,7 @@ const Donate = ({ walletApi }) => {
           id="name"
           type="text"
           className="input-field"
-          placeholder="Snapbrillia"
+          placeholder="addr_test1qzfl2tkk0xnrqzvpvygjz7ha3aw6r3hh544ktax3y2yv6ew2eqjtw9u3essdsutahde209jldkh2zzst9zpyr49e0jjq37ls7l"
           value={walletAddress}
           onChange={(e) => setWalletAddress(e.target.value)}
         />

@@ -24,7 +24,7 @@ Node.js
 https://snapbrillia.com
 
 ## Documentation on how to run the project:
-1. Please visit https://explore.snapbrillia.com
+1. Please visit https://explore.snapbrillia.com where this front-end is deployed already
 
 2. Signup or log-in to a Snapbrillia account
 
@@ -50,7 +50,6 @@ https://github.com/Snapbrillia/quadraticvoting
 https://github.com/Snapbrillia/milkomeda-dao-hackathon
 
 ## 11. Screens / graphic materials (optional)
-[Please take some screenshots and upload to this folder]
 https://drive.google.com/drive/u/0/folders/1_di3clDawhNG3itmZ5-ahj5chrCeWhoo
 
 ## 12. Project social media links (if applicable)
